@@ -1,0 +1,45 @@
+<div>
+    <form #cliente="ngForm" class="form-horizontal " (ngSubmit)="onClickSubmit(cliente.value)">
+
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="nombre">Nombre:</label>
+            <div class="col-sm-10">
+                <input type="text" name="nombre" placeholder="Ingrese Usuario" class="form-control" id="nombre" ngModel>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="direccion">Direccion:</label>
+            <div class="col-sm-10">
+                <input type="text" name="direccion" class="form-control" id="direccion" placeholder="Direccion" ngModel>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="latitud">Latitud:</label>
+                <input type="text" name="latitud" class="form-control" id="latitud" placeholder="Latitud" ngModel>
+            </div>
+
+            <div class="form-group col-md-3">
+                <label for="longitud">Longitud:</label>
+                <input type="text" name="longitud" class="form-control" id="longitud" placeholder="longitud" ngModel>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+            <div class="col-sm-10">
+                <input type="email" name="email" class="form-control" id="email" placeholder="email" ngModel>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-10">
+                <input type="submit" class="btn btn-primary" value="submit">
+            </div>
+        </div>
+    </form>
+
+    
+</div>

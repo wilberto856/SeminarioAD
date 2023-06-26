@@ -1,0 +1,9 @@
+export class Usuario{
+    Id: String =  "";
+    nombre: String ="";
+    direccion: String ="";
+    email: String ="";
+    id: String ="";
+    latitud: String ="";
+    longitud: String ="";
+}

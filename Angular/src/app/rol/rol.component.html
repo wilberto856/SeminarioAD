@@ -1,0 +1,40 @@
+<div class="row g-3 my-2">
+    <div class="col-md-3">
+      <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+        <div>
+          <h3 class="fs-2">{{roles.length}}</h3>
+          <p class="fs-5">Roles</p>
+        </div>
+        <i class="fas fa-user fs-1 primary-text border rounded-full secondary-bg p-3"></i>
+      </div>
+    </div>
+  
+  </div>
+  
+  
+  
+  <div class="row my-5">
+      <h3 class="fs-4 mb-3">Roles</h3>
+      <div class="col">
+        <table class="table bg-white rounded shadow-sm  table-hover">
+          <thead>
+            <tr>
+              <th scope="col" width="50">Id</th>
+              <th scope="col">Rol</th>
+
+  
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let rol of roles">
+              <th scope="row">{{rol.id}}</th>
+              <td>{{rol.nombreRol}}</td>
+
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  
+  
+  
