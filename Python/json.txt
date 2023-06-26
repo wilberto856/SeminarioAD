@@ -1,0 +1,8 @@
+{
+    "nombre":"Wilson Puac",
+    "direccion":"Sta. cat. PInula",
+    "latitud":"15.6678984684686846",
+    "longitud":"16.6678984684689845",
+    "email":"wpuacl1@miumg.edu.gt"
+  }
+
